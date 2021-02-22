@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgb(20, 25, 34);
+}
+
+header div.banner {
+  height: 100px;
+  width: calc(100% - 50px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  z-index: 2;
+}
+
+header div.upgrade {
+  margin-right: 30px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.0);
+  font-weight: bold;
+}
+
+
+nav {
+  height: calc(100% - 100px);
+  width: 50px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav div.top-aside, nav div.bottom-aside  {
+  margin: 0 auto;
+}
+
+nav div.control-menu ul li {
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+main {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+
+main div.menu {
+  height: 100px;
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main div.menu > .text {
+  margin: 0 5px;
+}
+
+main div.spotify {
+  margin-top: 15px;
+  margin-left: 15px
+}
+
+main div.playlist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+main div.spotify > h2 {
+  padding-bottom: 5px;
+}
+
+main span {
+  font-size: 11px;
+}
+
+.card {
+  max-width: 100%;
+  margin: 5px;
+  flex-basis: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.card img.artist {
+  border-radius: 50%;
+
+}
+
+
+.text {
+  color: rgb(122, 124, 128);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+h2, h4 {
+  color: rgb(255, 255, 255);
+}
+
+footer div.playng img {
+  width: 50px;
+}
+
+footer div.playng .song-title {
+  display: flex;
+  flex-direction: column;
+}
+
+footer div.playng {
+  width: calc(100% / 3);
+  padding-left: 10px;
+  display: flex;
+}
+
+footer div.player {
+  width: calc(100% / 3);
+}
+
+footer div.commands {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div.favorites {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+footer div.mix {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% / 3);
+  padding-right: 10px;
+}
+
+footer i {
+  font-size: 15px;
+}
+
+
+i {
+  color: white;
+  font-size: 25px;
+}
+
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+
+@media all and (min-width: ) {
+
+}

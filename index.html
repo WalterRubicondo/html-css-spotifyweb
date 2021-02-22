@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/master.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="banner">
+        <div class="upgrade">
+          <button type="button" name="button" class="btn">Effettua l'upgrade</button>
+        </div>
+      </div>
+
+      <nav class="aside">
+        <div class="top-aside">
+          <div class="control-menu">
+            <ul>
+              <li><i class="fab fa-spotify"></i></li>
+              <li><i class="fas fa-home"></i></li>
+              <li><i class="fas fa-search"></i></li>
+              <li><i class="fas fa-book"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-aside">
+          <div class="control-menu">
+            <ul>
+              <li><i class="fas fa-arrow-down"></i></li>
+              <hr>
+              <li><i class="fas fa-user-circle"></i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="menu">
+        <a class="text">In Evidenza</a>
+        <a class="text">Podcast</a>
+        <a class="text">Classifiche</a>
+        <a class="text">Generi e Mood</a>
+        <a class="text">Nuove Uscite</a>
+        <a class="text">Nuove Scopri</a>
+      </div>
+      <div class="spotify">
+        <h2>Recently Played</h2>
+          <div class="playlist">
+            <div class="card">
+              <img src="./assets/img/frusciante.jpg" alt="">
+              <h4 class="title">The Empyrean</h4>
+              <span class="text">John Frusciante</span>
+            </div>
+            <div class="card">
+              <img src="./assets/img/billytalent.jpg" alt="">
+              <h4 class="title">Billy Talent III</h4>
+              <span class="text">Billy Talent</span>
+            </div>
+            <div class="card">
+              <img src="./assets/img/ledzeppelin.jpg" alt="">
+              <h4 class="title">Mothership</h4>
+              <span class="text">Led Zeppelin</span>
+            </div>
+            <div class="card">
+              <img src="./assets/img/deeppurple.jpg" alt="">
+              <h4 class="title">In Rock</h4>
+              <span class="text">Deep Purple</span>
+            </div>
+            <div class="card">
+              <img src="./assets/img/infectiusgroove.jpg" alt="">
+              <h4 class="title">Groove Family Cyco</h4>
+              <span class="text">Infectius Groove</span>
+            </div>
+            <div class="card">
+              <img src="./assets/img/afterhours.jpg" alt="">
+              <h4 class="title">Hai paura del buio?</h4>
+              <span class="text">Afterhours</span>
+            </div>
+          </div>
+        <h2>Creato per John Doe</h2>
+        <span class="text">Più ascolti, più accurati saranno i suggerimenti </span>
+          <div class="playlist">
+            <div class="card">
+              <img src="./assets/img/releaseradar.jpg" alt="">
+              <h4 class="title">Release Radar</h4>
+            </div>
+            <div class="card">
+              <img src="./assets/img/dailymix.png" alt="">
+              <h4 class="title">Daily Mix</h4>
+            </div>
+          </div>
+        <h2>Artisti più popolari</h2>
+        <span class="text">Più ascolti, più accurati saranno i suggerimenti </span>
+        <div class="playlist">
+          <div class="card">
+            <img src="./assets/img/foofighters.jpg" alt="" class="artist">
+            <h4 class="title">Foo Fighters</h4>
+          </div>
+          <div class="card">
+            <img src="./assets/img/damienrice.jpg" alt="" class="artist">
+            <h4 class="title">Damien Rice</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="playng">
+        <img src="./assets/img/modestmouse.jpg" alt="">
+        <div class="song-title">
+          <h4>Modest Mouse</h4>
+          <span>Nome Brano</span>
+        </div>
+        <div class="favorites">
+          <i class="far fa-heart"></i>
+          <i class="far fa-folder"></i>
+        </div>
+      </div>
+      <div class="player">
+        <div class="commands">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-play"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-redo-alt"></i>
+        </div>
+        <div class="track">
+          <label for="lenght">1:45</label>
+          <input type="range" id="lenght" name="lenght"
+          min="0" max="356" value="145" step="1">
+          <label for="lenght">3:56</label>
+        </div>
+      </div>
+      <div class="mix">
+        <i class="fas fa-list-ul"></i>
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-volume-up"></i>
+        <input type="range" id="volume" name="volume"
+         min="0" max="100" value="20" step="1">
+      </div>
+    </footer>
+
+  </body>
+</html>
