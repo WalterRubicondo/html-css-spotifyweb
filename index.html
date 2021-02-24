@@ -21,19 +21,32 @@
         <div class="top-aside">
           <div class="control-menu">
             <ul>
-              <li><i class="fab fa-spotify"></i></li>
-              <li><i class="fas fa-home"></i></li>
-              <li><i class="fas fa-search"></i></li>
-              <li><i class="fas fa-book"></i></li>
+              <li><i class="fab fa-spotify"></i><img src="./assets/img/logo-esteso.png" alt="" class="logo"></li>
+              <li class="prova"><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="#ffffff"></path></svg> <a class="text">Home</a></li>
+              <li><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z" fill="#ffffff" fill-rule="evenodd"></path></svg></i><a class="text">Cerca</a></li>
+              <li><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="#ffffff"></path></svg><a class="text">La tua Libreria</a></li>
             </ul>
           </div>
+        </div>
+        <div class="middle-aside">
+          <h4 class="text">PLAYLIST</h4>
+          <i class="fas fa-plus-square"><a class="text">Creare Playlist</a></i>
+          <ul class="text">
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+            <li><a href="#" class="text">Nome Playlist</a></li>
+          </ul>
         </div>
         <div class="bottom-aside">
           <div class="control-menu">
             <ul>
-              <li><i class="fas fa-arrow-down"></i></li>
+              <li><i class="fas fa-arrow-down"></i> <a class="text">Installa App</a></li>
               <hr>
-              <li><i class="fas fa-user-circle"></i></li>
+              <li><i class="fas fa-user-circle"></i><h5>John Doe</h5></li>
             </ul>
           </div>
         </div>
@@ -49,36 +62,54 @@
         <a class="text">Nuove Uscite</a>
         <a class="text">Nuove Scopri</a>
       </div>
-      <div class="spotify">
+      <div class="content">
         <h2>Recently Played</h2>
           <div class="playlist">
             <div class="card">
               <img src="./assets/img/frusciante.jpg" alt="">
+                <div class="overlay">
+                  <i class="fas fa-play"></i>
+                </div>
               <h4 class="title">The Empyrean</h4>
               <span class="text">John Frusciante</span>
             </div>
             <div class="card">
               <img src="./assets/img/billytalent.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Billy Talent III</h4>
               <span class="text">Billy Talent</span>
             </div>
             <div class="card">
               <img src="./assets/img/ledzeppelin.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Mothership</h4>
               <span class="text">Led Zeppelin</span>
             </div>
             <div class="card">
               <img src="./assets/img/deeppurple.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">In Rock</h4>
               <span class="text">Deep Purple</span>
             </div>
             <div class="card">
               <img src="./assets/img/infectiusgroove.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Groove Family Cyco</h4>
               <span class="text">Infectius Groove</span>
             </div>
             <div class="card">
               <img src="./assets/img/afterhours.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Hai paura del buio?</h4>
               <span class="text">Afterhours</span>
             </div>
@@ -88,10 +119,16 @@
           <div class="playlist">
             <div class="card">
               <img src="./assets/img/releaseradar.jpg" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Release Radar</h4>
             </div>
             <div class="card">
               <img src="./assets/img/dailymix.png" alt="">
+              <div class="overlay">
+                <i class="fas fa-play"></i>
+              </div>
               <h4 class="title">Daily Mix</h4>
             </div>
           </div>
@@ -100,10 +137,16 @@
         <div class="playlist">
           <div class="card">
             <img src="./assets/img/foofighters.jpg" alt="" class="artist">
+            <div class="overlay circle">
+              <i class="fas fa-play"></i>
+            </div>
             <h4 class="title">Foo Fighters</h4>
           </div>
           <div class="card">
             <img src="./assets/img/damienrice.jpg" alt="" class="artist">
+            <div class="overlay circle">
+              <i class="fas fa-play"></i>
+            </div>
             <h4 class="title">Damien Rice</h4>
           </div>
         </div>
@@ -115,7 +158,7 @@
         <img src="./assets/img/modestmouse.jpg" alt="">
         <div class="song-title">
           <h4>Modest Mouse</h4>
-          <span>Nome Brano</span>
+          <span class="text">Nome Brano</span>
         </div>
         <div class="favorites">
           <i class="far fa-heart"></i>
@@ -131,10 +174,10 @@
           <i class="fas fa-redo-alt"></i>
         </div>
         <div class="track">
-          <label for="lenght">1:45</label>
+          <span>1:45</span>
           <input type="range" id="lenght" name="lenght"
-          min="0" max="356" value="145" step="1">
-          <label for="lenght">3:56</label>
+          min="0" max="356" value="120" step="1">
+          <span>3:56</span>
         </div>
       </div>
       <div class="mix">
